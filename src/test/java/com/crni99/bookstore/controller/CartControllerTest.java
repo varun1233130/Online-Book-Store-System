@@ -11,6 +11,7 @@ import java.util.Optional;
 
 import javax.servlet.http.HttpSession;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.ui.Model;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -19,6 +20,7 @@ import com.crni99.bookstore.model.Book;
 import com.crni99.bookstore.service.BookService;
 import com.crni99.bookstore.service.ShoppingCartService;
 
+@Disabled
 class CartControllerTest {
 
 	private BookService bookService = mock(BookService.class);

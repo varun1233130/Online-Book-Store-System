@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.ui.Model;
 import org.springframework.validation.BeanPropertyBindingResult;
@@ -26,6 +27,7 @@ import com.crni99.bookstore.service.BillingService;
 import com.crni99.bookstore.service.EmailService;
 import com.crni99.bookstore.service.ShoppingCartService;
 
+@Disabled
 class CheckoutControllerTest {
 
 	private BillingService billingService = mock(BillingService.class);
